@@ -33,7 +33,6 @@ $(document).ready(function() {
 
     $(":button").click(function () {
         alert("aaa")
-        alert("name:"+$(input[id='username']).val());
 
 
     })
