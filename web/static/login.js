@@ -7,11 +7,20 @@ $(document).ready(function() {
 /*
     $(":button").click(function () {
         alert("a")
-        $("#div1").fadeIn();
+        $("#div1").load();
         $("#div2").fadeIn("slow");
         $("#div3").fadeIn(3000);
     });
 */
+    $("#btn2").click(function(){
+        alert("x")
+        $("#btn2").html("Dolly Duck");
+    });
+    $("#btn1").click(function(){
+        alert("x")
+        $("#btn2").html("Dolly Duck");
+    });
+
 
     $(":reset").click(function () {
 
@@ -32,7 +41,9 @@ $(document).ready(function() {
     })
 
     $(":button").click(function () {
-        alert("aaa")
+        alert("a")
+        $("#div0").load("static/demo_test.txt");
+
 
 
     })
