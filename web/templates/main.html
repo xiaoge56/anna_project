@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="static/submit_content.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        div#container{width:5000px}
+        div#header {background-color:#ffffff;}
+        div#menu {background-color:#ffffff;height:1000px;width:150px;float:left;}
+        div#content {background-color: #ffffff;height:1000px;width:1350px;float:left;}
+        div#mailinfo {background-color:#ffffff;height:1000px;width:250px;float:left;}
+        h1 {margin-bottom:0;}
+        h2 {margin-bottom:0;font-size:18px;}
+        ul {margin:0;}
+        li {list-style:none;}
+    </style>
+</head>
+
+<body>
+
+<div id="container">
+
+    <div id="header">
+        <h1>anna！</h1>
+    </div>
+    <div style="border-top:1px dashed #ddd;height: 1px;overflow:hidden"></div>
+    <div id="menu">
+        <h2>工作日报</h2>
+        <ul>
+            <li>安娜</li>
+            <li>董珊珊</li>
+        </ul>
+    </div>
+
+    <div id="content">
+
+            <p>工作内容</p>
+            <textarea id="anna_text" cols="30" rows="5"></textarea>
+            <button id="work1" >ss</button>
+            <p id="show"></p>
+
+
+
+
+    </div>
+
+    <div id="maininfo">
+        <form id="premailinfo">
+            <div class="form-group">
+                <label for="username">username</label><input type="email" class="form-control" id="username" />
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label><input type="password" class="form-control" id="password" />
+            </div>
+            <div class="form-group">
+                <label for="exampleInputFile">File input</label><input type="file" id="exampleInputFile" />
+
+            </div>
+        <button id="confirm_main_info">确认</button>
+        </form>
+
+    </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
